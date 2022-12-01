@@ -3,7 +3,7 @@ from .models import Car
 
 
 class CarSerializer(serializers.ModelSerializer):
-    """ Car Serialiser """
+    """ Car Serializer """
 
     owner = serializers.ReadOnlyField(source='owner.username')
     is_owner = serializers.SerializerMethodField()
