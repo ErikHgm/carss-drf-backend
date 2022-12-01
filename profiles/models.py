@@ -13,7 +13,9 @@ class Profile(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
     name = models.CharField(max_length=50)
     description = models.TextField(blank=True)
-    address = models.CharField(max_length=50)
+    street_address = models.CharField(max_length=50)
+    city = models.CharField(max_length=50)
+    postcode = models.CharField(max_length=10)
     email = models.CharField(max_length=50)
     phone = models.CharField(max_length=14)
     image = models.ImageField(
