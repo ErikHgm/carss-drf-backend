@@ -40,7 +40,7 @@ class Car(models.Model):
         max_length=32, choices=brand_choices
     )
     description = models.TextField()
-    milage = models.PositiveIntegerField()
+    mileage = models.PositiveIntegerField()
     year = models.PositiveIntegerField()
     gearbox = models.CharField(
         max_length=32, choices=gearbox_choices, default='automatic'
@@ -50,7 +50,7 @@ class Car(models.Model):
     )
     price = models.PositiveIntegerField()
     image = models.ImageField(
-        upload_to='images/', default='../default_profile_itiavb', blank=True
+        upload_to='images/', default='../default_post_rb5ucj', blank=True
     )
 
     class Meta:
