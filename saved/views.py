@@ -1,6 +1,7 @@
 from rest_framework import generics, permissions
 from .models import Save
 from .serializers import SaveSerializer
+from carss_drf_backend.permissions import IsOwnerOrReadOnly
 
 
 class SaveList(generics.ListCreateAPIView):
@@ -11,3 +12,8 @@ class SaveList(generics.ListCreateAPIView):
     def perform_create(self, serializer):
         serializer.save(owner=self.request.user)
 
+
+class SaveDetails(generics.RetrieveDestroyAPIView):
+    permission_classes = [IsOwnerOrReadOnly]
+    serializer_class = SaveSerializer
+    queryset = Save.objects.all()

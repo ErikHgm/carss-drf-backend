@@ -18,7 +18,7 @@ class CarList(generics.ListCreateAPIView):
         serializer.save(owner=self.request.user)
 
 
-class CarDetail(generics.RetrieveUpdateDestroyAPIView):
+class CarDetails(generics.RetrieveUpdateDestroyAPIView):
     """
     Detailed view of a car posting.
     Update or delete a posting for owner of the post.
