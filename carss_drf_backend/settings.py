@@ -55,6 +55,7 @@ INSTALLED_APPS = [
     'profiles',
     'cars',
     'saved',
+    'followers',
 ]
 
 MIDDLEWARE = [
