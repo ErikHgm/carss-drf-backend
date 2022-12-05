@@ -1,4 +1,4 @@
-from rest_framework import generics, permissions
+from rest_framework import generics, permissions, filters
 from carss_drf_backend.permissions import IsOwnerOrReadOnly
 from .models import Car
 from .serializers import CarSerializer
@@ -13,6 +13,14 @@ class CarList(generics.ListCreateAPIView):
     serializer_class = CarSerializer
     permission_classes = [permissions.IsAuthenticatedOrReadOnly]
     queryset = Car.objects.all()
+
+    filter_backends = [
+        filters.SearchFilter,
+    ]
+    search_fields = [
+        'owner__username',
+        'title',
+    ]
 
     def perform_create(self, serializer):
         serializer.save(owner=self.request.user)
