@@ -1,5 +1,6 @@
 from rest_framework import generics, permissions, filters
 from carss_drf_backend.permissions import IsOwnerOrReadOnly
+from django_filters.rest_framework import DjangoFilterBackend
 from .models import Car
 from .serializers import CarSerializer
 
@@ -16,6 +17,12 @@ class CarList(generics.ListCreateAPIView):
 
     filter_backends = [
         filters.SearchFilter,
+        DjangoFilterBackend,
+    ]
+    filterset_fields = [
+        'owner__followed__owner__profile',
+        'saved__owner__profile',
+        'owner__profile',
     ]
     search_fields = [
         'owner__username',
