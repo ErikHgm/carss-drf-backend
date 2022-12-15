@@ -10,15 +10,15 @@ Introduction
 
 - [User Experience (UX)](#user-experience-ux)
   - [User Stories](#user-stories)
-  - [Agile Methodology](#agile-methodology)
   - [Design](#design)
-    - [Wireframes](#wireframes)
     - [Database Schema](#database-schema)
 - [Features](#features)
   - [Future Features](#future-features)
 - [Technologies Used](#technologies-used)
-  - [Languages Used](#languages-used)
-  - [Frameworks Used](#frameworks-used)
+  - [Languages and Frameworks Used](#languages-and-frameworks-used)
+  - [Python Modules Used](#python-modules-used)
+  - [Packages Used](#packages-used)
+  - [Programs and Tools Used](#programs-and-tools-used)
 - [Testing](#testing)
   - [Bugs](#bugs)
     - [Fixed Bugs](#fixed-bugs)
@@ -36,18 +36,7 @@ Introduction
 
 -   ### User stories
 
-    -   #### First Time Visitor Goals
-        
-    -   #### Returning Visitor Goals
-
-    -   #### Frequent User Goals
-
--   ### Agile methodology
-
--   ### Design
-
-
--   ### Wireframes
+## Design
 
 -   ### Database Schema
 
@@ -56,10 +45,6 @@ Introduction
 ### Future Features
 
 ## Technologies Used
-
-### Languages Used
-
-
 
 ### Languages and Frameworks Used
 
@@ -109,25 +94,7 @@ Introduction
 #### Remaining Bugs
 
 
-### Testing User Stories from User Experience (UX) Section
-
--   #### First Time Visitor Goals
-
-
-
--   #### Returning Visitor Goals
-
-
-
--   #### Frequent User Goals
-
-
 ### Further Testing
-
-
-
-
-
 
 
 ## Deployment
