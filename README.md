@@ -61,8 +61,44 @@ Introduction
 
 
 
-### Frameworks, Libraries & Programs Used
+### Languages and Frameworks Used
 
+- [Python](https://www.python.org/) - Main programming language.
+- [Django](https://pypi.org/project/Django/3.2.14/) - High-level Python Web framework used to develop the project.
+- [djangorestframework](https://pypi.org/project/djangorestframework/3.14.0/) - Toolkit for building web API's with Django.
+
+### Python Modules Used
+
+- Built-in Packages/Modules
+  - [pathlib](https://docs.python.org/3/library/pathlib.html) - Used to work with filepaths.
+  - [os](https://docs.python.org/3/library/os.html) - This module provides a portable way of using operating system dependent functionality.
+
+### Packages Used
+
+- External Python Packages
+  - [cloudinary](https://pypi.org/project/cloudinary/1.30.0/) - Cloudinary intergration.
+  - [django-cloudinary-storage](https://pypi.org/project/django-cloudinary-storage/0.3.0/) - Cloudinary intergration.
+  - [dj-database-url](https://pypi.org/project/dj-database-url/0.5.0/) - Allows the use of 'DATABASE_URL' environmental variable in the Django project settings file to connect to a PostgreSQL database.
+  - [django-allauth](https://pypi.org/project/django-allauth/0.51.0/) - Set of Django application used for account registration, management and authentication.
+  - [dj-rest-auth](https://pypi.org/project/dj-rest-auth/2.2.5/) - API endpoints for handling authentication in Django Rest Framework.
+  - [django-filter](https://pypi.org/project/django-filter/22.1/) - Application that allows dynamic QuerySet filtering from URL parameters.
+  - [djangorestframework-simplejwt](https://pypi.org/project/djangorestframework-simplejwt/5.2.1/) - JSON Web Token authentication backend for the Django REST Framework.
+  - [django-cors-headers](https://pypi.org/project/django-cors-headers/3.13.0/) - Django App that adds CORS headers to responses.
+  - [gunicorn](https://pypi.org/project/gunicorn/20.1.0/) - Python WSGI HTTP Server.
+  - [Pillow](https://pypi.org/project/Pillow/9.2.0/) - Fork of PIL, the Python Imaging Library which provides image processing capabilities.
+  - [psycopg2](https://pypi.org/project/psycopg2/2.9.3/) - Python PostgreSQL database adapter.
+  - [python-dotenv](https://pypi.org/project/python-dotenv/0.21.0/) - Set key-value pairs from `.env` file as environmental variables.
+
+### Programs and Tools Used
+
+- [drawSQL](https://drawsql.app/) - Create Database Schema/ERD
+- [Gitpod:](https://gitpod.io/)
+  - Gitpod was used as my code editor for this project.
+- [Git](https://git-scm.com/)
+  - Git was used for version control, using the terminal to commit to Git and
+    Push to GitHub.
+- [GitHub:](https://github.com/)
+  - GitHub is used to store the projects code after being pushed from Git.
 
 ## Testing
 
@@ -148,9 +184,6 @@ In the Deploy tab:
    - Choose the correct repository for your application and click on `Connect`.
 2. You can then choose to deploy the project manually or automatically, automatic deployment will generate a new application every time you push a change to Github, whereas manual deployment requires you to push the `Deploy Branch` button whenever you want a change made.
 3. Once you have chosen your deployment method and have clicked `Deploy Branch` your application will be built and you should now see the `View` button, click this to open your application.
-
-
-
 
 
 ## Credits
