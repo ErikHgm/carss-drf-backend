@@ -1,7 +1,6 @@
 <h1 align="center">CARSS - A vehicle marketplace!</h1>
-<h2 align="center"><img src="static/img/readme/main.png"></h2>
 
-Introduction
+CARSS is a vehicle marketplace platform designed for used cars. It allows for the users to create their own listing to sell their used car. As a visitor you can also search for used cars in case you are looking to buy a car. The users can register for the website and gain access to more features such as saving your favourite cars that you are most interested in as well as follow certain car dealerships on order to be aware of what their latest inventory are. This part of the project is the backend API based on the Django REST framework, it serves the front end part of the project by retrieving and storing data in the database.  
          
 [View the live project here.](https://carss-drf-backend.herokuapp.com/)
 
