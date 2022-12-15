@@ -8,7 +8,7 @@ Introduction
 ### Links to the Frontend Project
 
 - [Frontend - Repository](https://github.com/ErikHgm/carss-react-frontend)
-- [Frontend - Deployment](http://carss-react.herokuapp.com/)
+- [Frontend - Deployment](https://carss-react.herokuapp.com/)
 ## TOC
 
 - [User Experience (UX)](#user-experience-ux)
