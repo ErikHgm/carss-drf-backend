@@ -168,3 +168,6 @@ In the Deploy tab:
 
 
 ### Acknowledgements
+  - The tutor support team at Code Institute for their support.
+  - My Code Institute Mentor for feedback and suggestions.
+  - The Code Institute Slack community.
