@@ -185,20 +185,19 @@ In the Deploy tab:
 2. You can then choose to deploy the project manually or automatically, automatic deployment will generate a new application every time you push a change to Github, whereas manual deployment requires you to push the `Deploy Branch` button whenever you want a change made.
 3. Once you have chosen your deployment method and have clicked `Deploy Branch` your application will be built and you should now see the `View` button, click this to open your application.
 
-
 ## Credits
+
+### Online resources
+
+- [Django Documentation](https://docs.djangoproject.com/en/3.2/)
+- [Django REST Documentation](https://www.django-rest-framework.org/)
+- [Python Documentation](https://docs.python.org/3/)
 
 ### Code
 
-
-
-### Content
-
-
-
-### Media
-
-
+- Code Institute DRF Tutorial Project, used through as a basis for the creation of this API
+  - CREDIT: Code Institute DRF-API Tutuorial Project
+  - URL: [https://github.com/Code-Institute-Solutions/drf-api](https://github.com/Code-Institute-Solutions/drf-api)
 
 ### Acknowledgements
   - The tutor support team at Code Institute for their support.
