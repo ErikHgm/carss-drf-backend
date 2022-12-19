@@ -10,10 +10,8 @@ CARSS is a vehicle marketplace platform designed for used cars. It allows for th
 - [Frontend - Deployment](https://carss-react.herokuapp.com/)
 ## TOC
 
-- [User Experience (UX)](#user-experience-ux)
-  - [User Stories](#user-stories)
-  - [Design](#design)
-    - [Database Schema](#database-schema)
+- [User Stories](#user-stories)
+- [Database Schema](#database-schema)
 - [Features](#features)
   - [Future Features](#future-features)
 - [Technologies Used](#technologies-used)
@@ -34,14 +32,11 @@ CARSS is a vehicle marketplace platform designed for used cars. It allows for th
   - [Media](#media)
   - [Acknowledgments](#acknowledgments)
 
-## User Experience (UX)
+## User stories
 
--   ### User stories
-
-## Design
-
--   ### Database Schema
-
+## Database Schema
+  -  The database models for the project were created based on the schema below.
+  ![DatabaseSchema](/docs/dbschema.png)  
 ## Features
 
 ### Future Features
