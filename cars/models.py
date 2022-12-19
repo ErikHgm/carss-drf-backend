@@ -8,9 +8,12 @@ class Car(models.Model):
     in the db by the user instance.
     """
     brand_choices = [
-        ("bmw", "Bmw"), ("mercedes-benz", "Mercedes-benz"),
-        ("audi", "Audi"), ("volkswagen", "Volkswagen"),
-        ("volvo", "Volvo"), ("ford", "Ford"),
+        ("bmw", "Bmw"),
+        ("mercedes-benz", "Mercedes-benz"),
+        ("audi", "Audi"),
+        ("volkswagen", "Volkswagen"),
+        ("volvo", "Volvo"),
+        ("ford", "Ford"),
         ("toyota", "Toyota"),
         ("honda", "Honda"),
         ("nissan", "Nissan"),
