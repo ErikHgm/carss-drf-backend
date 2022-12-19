@@ -36,9 +36,8 @@ CARSS is a vehicle marketplace platform designed for used cars. It allows for th
 ## Database Schema
   -  The database models for the project were created based on the schema below.
   ![DatabaseSchema](/docs/dbschema.png)  
-## Features
 
-### Future Features
+## Future Features
   - Allow for more search options and filters based on different criteria.
   - Implement a rating system for the buyers to rate sellers in order to increase trust and credibility of the service.
   - Implement a location algorithm to allow user to search for cars/sellers within a certain distance.
@@ -86,16 +85,15 @@ CARSS is a vehicle marketplace platform designed for used cars. It allows for th
   - GitHub is used to store the projects code after being pushed from Git.
 
 ## Testing
+  A separate document for testing can be found [here](/TESTING.md).
 
 ### Bugs
 
 #### Fixed Bugs
+  - [Click here](https://github.com/ErikHgm/carss-drf-backend/search?q=fix%3A&type=commits) to view a list of fixed bugs that has been completed.
 
 #### Remaining Bugs
-
-
-### Further Testing
-
+- No known remaining bugs
 
 ## Deployment
 
