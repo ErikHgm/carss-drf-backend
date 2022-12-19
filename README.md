@@ -33,6 +33,10 @@ CARSS is a vehicle marketplace platform designed for used cars. It allows for th
 
 ## User stories
 
+The main purpose of the API is to connect the backend part with the frontend in order to fullfill user stories created for the frontend part of the project, a complete list of the user stories for the frontend can be found  [here](https://github.com/users/ErikHgm/projects/5/views/2).
+
+Tasks were implemented as part of the development process for the API, a list of the tasks can be found on the project's [Kanban board](https://github.com/users/ErikHgm/projects/5/views/1).
+
 ## Database Schema
   -  The database models for the project were created based on the schema below.
   ![DatabaseSchema](/docs/dbschema.png)  
