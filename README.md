@@ -29,8 +29,7 @@ CARSS is a vehicle marketplace platform designed for used cars. It allows for th
   - [Deploying with Heroku](#deploying-with-heroku)
 - [Credits](#credits)
   - [Code](#code)
-  - [Media](#media)
-  - [Acknowledgments](#acknowledgments)
+  - [Acknowledgements](#acknowledgements)
 
 ## User stories
 
@@ -40,6 +39,10 @@ CARSS is a vehicle marketplace platform designed for used cars. It allows for th
 ## Features
 
 ### Future Features
+  - Allow for more search options and filters based on different criteria.
+  - Implement a rating system for the buyers to rate sellers in order to increase trust and credibility of the service.
+  - Implement a location algorithm to allow user to search for cars/sellers within a certain distance.
+  - Implement the functionality for an image gallery to allow the sellers to upload more pictures of the cars.
 
 ## Technologies Used
 
@@ -102,7 +105,7 @@ CARSS is a vehicle marketplace platform designed for used cars. It allows for th
 2. In the right most top menu, click the "Fork" button.
 3. There will now be a copy of the repository in your own GitHub account.
 
-### Running the project locally
+### Making a local clone
 
 1. Go to [the project repository](https://github.com/ErikHgm/FireHouse-Restaurant-Project)
 2. Click on the "Code" button.
